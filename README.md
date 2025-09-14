@@ -65,33 +65,32 @@ mvn clean install
 mvn spring-boot:run
 ```
 5.	Start interacting with your bot on Telegram.
-
 Bot Commands
-	- /start — register or greet user
-	- /view — view next profile
-	- /myProfile — view your own profile
-	- /delete — delete your account
+- /start — register or greet user
+- /view — view next profile
+- /myProfile — view your own profile
+- /delete — delete your account
 
 REST API Endpoints
-	- GET /api/users — get all users
-	- GET /api/users/{chatId} — get user by ID
-	- POST /api/users — create new user
-	- PUT /api/users/{chatId} — update user
-	- DELETE /api/users/{chatId} — delete user
+- GET /api/users — get all users
+- GET /api/users/{chatId} — get user by ID
+- POST /api/users — create new user
+- PUT /api/users/{chatId} — update user
+- DELETE /api/users/{chatId} — delete user
 
 Logging & Error Handling
-	- Uses SLF4J for logging bot actions and errors.
-	- Handles invalid inputs and missing profiles gracefully.
+- Uses SLF4J for logging bot actions and errors.
+- Handles invalid inputs and missing profiles gracefully.
 
 Future Improvements
-	- Add pagination for profiles in /view.
-	- Implement advanced matching algorithm based on preferences.
-	- Add photo moderation or verification.
-	- Deploy with Docker for production-ready setup.
+- Add pagination for profiles in /view.
+- Implement advanced matching algorithm based on preferences.
+- Add photo moderation or verification.
+- Deploy with Docker for production-ready setup.
 
 6. How to Create a Telegram Bot
-    - Open Telegram and search for @BotFather.
-    - Send the command /newbot.
-    - Choose a display name and a unique username (must end with bot, e.g. DatingHelperBot).
-    - BotFather will generate a token — save it and put it into your .env file as TELEGRAM_BOT_TOKEN.
-    - Copy the username into .env as TELEGRAM_BOT_USERNAME.
+- Open Telegram and search for @BotFather.
+- Send the command /newbot.
+- Choose a display name and a unique username (must end with bot, e.g. DatingHelperBot).
+- BotFather will generate a token — save it and put it into your .env file as TELEGRAM_BOT_TOKEN.
+- Copy the username into .env as TELEGRAM_BOT_USERNAME.
