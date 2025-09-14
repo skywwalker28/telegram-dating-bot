@@ -37,12 +37,12 @@ Telegram Dating Bot is a Spring Boot application that allows users to register, 
   - `photoFileId`
 
 ## Setup & Running
-# 1. Clone the repository:
+### 1. Clone the repository:
 ```
 git clone https://github.com/yourusername/telegram-bot.git
 ```
 
-# 2. Configure .env or application.properties with database credentials and Telegram bot token. Example:
+### 2. Configure .env or application.properties with database credentials and Telegram bot token. Example:
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/telegram_bot?allowPublicKeyRetrieval=true&useSSL=false
 spring.datasource.username=${DB_USERNAME}
@@ -55,16 +55,16 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 ```
-# 3.	Run MySQL locally and create a database:
+### 3.	Run MySQL locally and create a database:
 ```
 CREATE DATABASE telegram_bot;
 ```
-# 4.	Build and run the application:
+### 4.	Build and run the application:
 ```
 mvn clean install
 mvn spring-boot:run
 ```
-# 5.	Start interacting with your bot on Telegram.
+### 5.	Start interacting with your bot on Telegram.
 Bot Commands
 - /start — register or greet user
 - /view — view next profile
@@ -88,7 +88,7 @@ Future Improvements
 - Add photo moderation or verification.
 - Deploy with Docker for production-ready setup.
 
-# 6. How to Create a Telegram Bot
+### 6. How to Create a Telegram Bot
 1. Open Telegram and search for @BotFather.
 2. Send the command /newbot.
 3. Choose a display name and a unique username (must end with bot, e.g. DatingHelperBot).
