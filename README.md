@@ -64,7 +64,7 @@ CREATE DATABASE telegram_bot;
 mvn clean install
 mvn spring-boot:run
 ```
-	5.	Start interacting with your bot on Telegram.
+5.	Start interacting with your bot on Telegram.
 
 Bot Commands
 	- /start — register or greet user
@@ -90,8 +90,8 @@ Future Improvements
 	- Deploy with Docker for production-ready setup.
 
 6. How to Create a Telegram Bot
- 1. Open Telegram and search for @BotFather.
- 2. Send the command /newbot.
- 3. Choose a display name and a unique username (must end with bot, e.g. DatingHelperBot).
- 4. BotFather will generate a token — save it and put it into your .env file as TELEGRAM_BOT_TOKEN.
- 5. Copy the username into .env as TELEGRAM_BOT_USERNAME.
+    - Open Telegram and search for @BotFather.
+    - Send the command /newbot.
+    - Choose a display name and a unique username (must end with bot, e.g. DatingHelperBot).
+    - BotFather will generate a token — save it and put it into your .env file as TELEGRAM_BOT_TOKEN.
+    - Copy the username into .env as TELEGRAM_BOT_USERNAME.
