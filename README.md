@@ -94,3 +94,7 @@ Future Improvements
 3. Choose a display name and a unique username (must end with bot, e.g. DatingHelperBot).
 4. BotFather will generate a token — save it and put it into your .env file as TELEGRAM_BOT_TOKEN.
 5. Copy the username into .env as TELEGRAM_BOT_USERNAME.
+
+---
+
+**Author:** Artur (Telegram: @wskywalk)
